@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="web.css">
+    <style>
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('https://images.pexels.com/photos/13988975/pexels-photo-13988975.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        filter: blur(3px); /* Adjust blur as needed */
+        z-index: -1; /* Ensure it stays behind other content */
+    }
+</style>
+</head>
+<body>
+    
+    <div class="flex-container">
+        <div>
+            <a href="">Start Bootstrap</a>
+        </div>
+        <div>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Portfolio</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+    <div class="grid-container">
+        <h1>YOUR FAVORITE SCOURCE OF <br> FREE BOOTSTRAP THEMES</h1>
+        <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! <br>Choose one of our open source themes and templates to get started today!</p>
+    </div>
+    <div class="button-container">
+        <a href="#" class="btn">FIND OUT MORE</a>
+    </div>
+
+    
+</body>
+</html>

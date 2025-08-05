@@ -1,0 +1,15 @@
+/* *{
+    background-color: rgb(159, 233, 255);
+}  (Universal css selector) */
+.head1{
+    color: red;
+}
+#id1{
+    color: rgb(0, 124, 0);
+}
+h4, h5{
+    color: blueviolet;
+}
+div > p{
+    color: rgb(169, 161, 0);
+}

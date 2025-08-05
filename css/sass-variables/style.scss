@@ -1,0 +1,24 @@
+$maincolor : #3498db;
+$backgroundcolor : #a8d6e2;
+$fontcolor : #2c3e50;
+$fontfamily : 'Arial, sans-serif';
+$fontsize : 16px;
+
+h1 {
+    color: $maincolor;
+    background-color: $backgroundcolor;
+    font-family: $fontfamily;
+    font-size: 2em;
+}
+
+h2 {
+    color: darken($maincolor, 10%);
+    font-family: $fontfamily;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: lighten($maincolor, 10%);
+    font-family: $fontfamily;
+    font-size: 1.2em;
+}

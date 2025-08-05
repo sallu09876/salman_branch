@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+body h1 {
+  color: #3498db;
+}
+body .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #3498db;
+}
+body .btn:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}/*# sourceMappingURL=style.css.map */

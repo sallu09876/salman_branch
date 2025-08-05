@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue;
+            text-decoration: underline;
+            text-decoration-color: green;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        h2:hover {
+            color: red;
+            text-decoration: underline;
+            text-decoration-color: blue;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        h3:active {
+            color: green;
+            text-decoration: underline;
+            text-decoration-color: orange;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        input:focus {
+            border: 2px solid blue;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+        }
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+            text-decoration: none;
+        }
+        p:first-letter {
+            font-size: 2em;
+            color: red;
+            font-weight: bold;
+        }
+        div::first-line {
+            font-weight: bold;
+            color: rgb(0, 180, 0);
+        }
+        h1::before {
+            content: "CSS";
+            color: orange;
+        }
+        h1::after {
+            content: ":-";
+            color: orange;
+        }
+        div::selection {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes</h1>
+    <h2>Pseudo Hover</h2>
+    <h3>Pseudo Active</h3>
+    <input type="text" placeholder="Pseudo Focus"> <br>
+    <br>
+    <a href="../text1.txt">link 1</a>
+    <a href="../text2.txt">link 2</a>
+    <br>
+    <h1>Pseudo Elements</h1>
+    <p>First Letter</p>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+    </div>
+
+    
+</body>
+</html> 

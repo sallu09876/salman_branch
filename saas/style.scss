@@ -1,0 +1,26 @@
+//variables
+ $secondary-color: #3498db;
+$font-stack: Helvetica,sans-serif;
+
+//nesting and mixins
+@mixin button-style{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+body{
+    font-family: $font-stack;
+
+    h1{
+        color: $secondary-color;
+    }
+    .btn{
+        @include button-style;
+        background-color: $secondary-color;
+
+        &:hover {
+            background-color: darken($secondary-color,10%);
+        }
+    }
+}

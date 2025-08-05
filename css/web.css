@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  margin: 6px;
+  padding: 6px;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  padding: 10%;
+  text-align: center;
+  font-size: larger;
+}
+/* .button-container {
+  display: flex;
+  justify-content: center;
+
+  
+} */
+.btn {  
+  background-color: #0037ff;
+  color: white;
+  padding: 12px 25px ;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #0d00ff;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px; /* Adjust spacing as needed */
+}

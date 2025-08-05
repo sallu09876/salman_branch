@@ -1,0 +1,32 @@
+@primary-color: #3498db;
+@font-name: 'Arial', sans-serif;
+@padding: 10px;
+@border-radius: 5px;
+@color: white;
+@background-color: black;
+
+body {
+    font-family: @font-name;
+    background-color: lighten(@background-color, 10%);
+    padding: @padding;
+    color: @color;
+}
+
+h1 {
+    color: @primary-color;
+    text-align: center;
+}
+
+h2 {
+    color: darken(@primary-color, 10%);
+    text-align: center;
+}
+
+button {
+    background-color: @primary-color;
+    color: @color;
+    padding: @padding;
+    border: none;
+    border-radius: @border-radius;
+    cursor: pointer;
+}

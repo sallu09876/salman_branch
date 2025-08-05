@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            display: block;
+        }
+        .inline{
+            display: inline;
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+        }
+        .inline-block{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+        }
+        .hide{
+            display: none;
+        }
+        .flex-container {
+            display: flex;
+        }
+        .flex-items {
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 25% 25%;
+            gap: 10px;
+        }
+        .grid-items {
+            height: 100px;
+            width: 200px;
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <span>Hello Html</span>
+    <span>Hello Html</span>
+    <div class="inline">Hello Css</div>
+    <div class="inline">Hello Css</div>
+    <div class="inline-block">Hello js</div>
+    <div class="inline-block">Hello js</div>
+    <div class="hide">Display none</div>
+    <div class="show">Display none</div>
+
+    <div class="flex-container">
+        <div class="flex-items">Flex 1</div>
+        <div class="flex-items">Flex 2</div>
+        <div class="flex-items">Flex 3</div>
+        <div class="flex-items">Flex 4</div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-items">Grid 1</div>
+        <div class="grid-items">Grid 2</div>
+        <div class="grid-items">Grid 3</div>
+        <div class="grid-items">Grid 4</div>
+    </div>
+
+</body>
+</html>

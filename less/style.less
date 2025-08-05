@@ -1,0 +1,15 @@
+@primary-color : green;
+
+body {
+    background-color: #f0f0f0;
+    background-color: @primary-color;
+
+    h1 {
+        color: white;
+        padding: 10px;
+    }
+
+    .box {
+        border : 1px solid darken(@primary-color, 10%);
+    }
+}
